@@ -68,8 +68,7 @@ public class MTL_BackDemo {
 	@Test
 	public void test_Home() throws Exception
 	{
-		
-		
+			
 		 System.out.println("Hello");
 		WebDriverWait wait=(WebDriverWait) new WebDriverWait(driver, 20).ignoring(TimeoutException.class,NoSuchElementException.class);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("jp.co.necp.mytimeline:id/weather_icon")));
